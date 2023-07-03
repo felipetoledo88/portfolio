@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
+import { TypeAnimation } from 'react-type-animation';
 
 export const HomePage = styled.div`
   background: linear-gradient(to bottom, #0A192F 0%, #2B6370 100%, #49B6A6 100%);
@@ -31,6 +32,14 @@ export const LargeText = styled.h1`
   font-family: 'Chakra Petch', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
+
+export const TypeAnimationStyled = styled(TypeAnimation)`
+color: #e6e6e6;
+font-size: 80px;
+margin: 16px 0;
+font-family: 'Chakra Petch', sans-serif;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+`
 
 export const Description = styled.p`
   color: #c4c4c4;

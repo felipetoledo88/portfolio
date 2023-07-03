@@ -1,8 +1,9 @@
 import { HeaderPage } from '../Header';
-import { Content, Description, HomePage, LargeText, RowStyled, SmallText } from './styles';
+import { Content, Description, HomePage, LargeText, RowStyled, SmallText, TypeAnimationStyled } from './styles';
 import './../../reset.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Typing from 'react-typing-animation';
+import { TypeAnimation } from 'react-type-animation';
+
 
 export function Home() {
   return (
@@ -13,14 +14,25 @@ export function Home() {
           <Content>
             <Row>
               <SmallText className="text-left">Olá, meu nome é...</SmallText>
-              <Typing loop>
-                <LargeText>
-                  Felipe Toledo.
-                  <Typing.Delay ms={2000} />
-                  <Typing.Backspace count={15} delay={2000} />
-                </LargeText>
-              </Typing>
-              <Description className="text-center">"Construo pontes entre conceitos e códigos, transformando ideias em realidade digital."</Description>
+              <TypeAnimationStyled
+                sequence={[
+                  () => new Promise<void>((resolve) => setTimeout(resolve, 2000)),
+                  (element: any) => {
+                    if (element) {
+                      const text = element.textContent || '';
+                      element.textContent = text.slice(0, -15);
+                    }
+                  },
+                  'Felipe Toledo.',
+                  () => new Promise<void>((resolve) => setTimeout(resolve, 2000)),
+                ]}
+                wrapper="strong"
+              >
+                <LargeText />
+              </TypeAnimationStyled>
+              <Description className="text-center">
+                "Construo pontes entre conceitos e códigos, transformando ideias em realidade digital."
+              </Description>
             </Row>
           </Content>
         </RowStyled>
@@ -28,6 +40,3 @@ export function Home() {
     </HomePage>
   );
 }
-
-
-
