@@ -17,8 +17,9 @@ export const Text = styled.p`
 `;
 
 export const Image = styled.img`
-  width: 200px;
-  height: 200px;
+width: 250px;
+height: 250px;
   object-fit: cover;
   border-radius: 50%;
+  margin-top: 4%;
 `;

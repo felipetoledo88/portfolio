@@ -9,7 +9,7 @@ export function AboutMe() {
       <Container>
         <Row md={12}>
           <Col md={6} className="text-center">
-            <Image src="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/04/ferramentas-de-revisao-de-codigo.png" alt="Foto de perfil" roundedCircle />
+            <Image  className="" src="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/04/ferramentas-de-revisao-de-codigo.png" alt="Foto de perfil" roundedCircle />
           </Col>
           <Col  md={6}>
             <Content>
