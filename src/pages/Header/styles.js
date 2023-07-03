@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { FaCode } from 'react-icons/fa';
-import { AiOutlineUser, AiOutlineTool, AiOutlineMail } from 'react-icons/ai';
 
 export const Header = styled.header`
   display: flex;
@@ -28,6 +27,10 @@ export const MenuList = styled.ul`
   margin: 0;
   padding: 0;
   margin-left: auto;
+  a { 
+    color: currentColor;
+    text-decoration: none;
+ } 
 `;
 export const MenuItem = styled.li`
   font-family: 'Fira Code', monospace;

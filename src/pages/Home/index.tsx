@@ -1,6 +1,6 @@
 import { HeaderPage } from '../Header';
 import { Content, Description, HomePage, LargeText, RowStyled, SmallText } from './styles';
-import './reset.css';
+import './../../reset.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Typing from 'react-typing-animation';
 
