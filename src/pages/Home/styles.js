@@ -3,11 +3,14 @@ import { Row } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
 export const HomePage = styled.div`
-  background: linear-gradient(to bottom, #0A192F 0%, #2B6370 100%, #49B6A6 100%);
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2021/03/20/cool-planet-polygon-wallpaper.png');
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100%;
   font-family: 'Italiana', serif;
 `;
+
 
 export const Content = styled.div`
   display: flex;
