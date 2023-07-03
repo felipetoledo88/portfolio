@@ -11,7 +11,6 @@ export const HomePage = styled.div`
   font-family: 'Italiana', serif;
 `;
 
-
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -37,20 +36,24 @@ export const LargeText = styled.h1`
 `;
 
 export const TypeAnimationStyled = styled(TypeAnimation)`
-color: #e6e6e6;
-font-size: 80px;
-margin: 16px 0;
-font-family: 'Chakra Petch', sans-serif;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-`
+  color: #e6e6e6;
+  font-size: 80px;
+  margin: 16px 0;
+  font-family: 'Chakra Petch', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+`;
 
 export const Description = styled.p`
   color: #c4c4c4;
   font-size: 35px;
   font-family: 'Chakra Petch', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
 `;
 
 export const RowStyled = styled(Row)`
-margin-left: 3%;
-`
+  margin-left: 3%;
+`;
