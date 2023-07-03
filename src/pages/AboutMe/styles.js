@@ -6,11 +6,6 @@ export const AboutMePage = styled.div`
   width: 100%;
 `;
 
-export const Content = styled.div`
-  padding: 40px;
-  color: #fff;
-`;
-
 export const Text = styled.p`
   font-size: 18px;
   line-height: 1.5;
@@ -21,5 +16,21 @@ width: 250px;
 height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  margin-top: 4%;
 `;
+
+export const TechnologyImage = styled.img`
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+`;
+
+export const TechnologiesTitle = styled.h2`
+  color: #fff;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+`;
+
+export const DescriptionStyled = styled(Text)`
+color: white;
+`
