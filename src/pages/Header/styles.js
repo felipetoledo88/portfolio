@@ -7,17 +7,24 @@ export const Header = styled.header`
   justify-content: flex-start;
   background-color: transparent;
   padding: 16px;
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+  }
 `;
 
 export const ItemIcon = styled.span`
   margin-right: 8px;
 `;
 
-
 export const Icon = styled(FaCode)`
   color: #49B6A6;
   font-size: 50px;
   margin-right: 8px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const MenuList = styled.ul`
@@ -27,11 +34,18 @@ export const MenuList = styled.ul`
   margin: 0;
   padding: 0;
   margin-left: auto;
+
   a { 
     color: currentColor;
     text-decoration: none;
- } 
+  } 
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
+
 export const MenuItem = styled.li`
   font-family: 'Fira Code', monospace;
   font-size: 14px;
@@ -46,4 +60,9 @@ export const MenuItem = styled.li`
     color: #49B6A6;
     transform: scale(1.1);
   }
-`
+
+  @media (max-width: 768px) {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+`;
