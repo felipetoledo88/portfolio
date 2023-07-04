@@ -42,7 +42,7 @@ export const MenuList = styled.ul`
 
   @media (max-width: 768px) {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 `;
 
