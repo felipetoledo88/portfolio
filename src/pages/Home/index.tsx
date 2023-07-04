@@ -1,8 +1,11 @@
-import { HeaderPage } from '../Header';
-import { Content, Description, HomePage, LargeText, RowStyled, SmallText, TypeAnimationStyled } from './styles';
+import { HeaderPage } from '../../components/Header';
+import { Content, CustomButton, Description, HomePage, LargeText, RowStyled, SmallText, TypeAnimationStyled } from './styles';
 import './../../reset.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 export function Home() {
   return (
@@ -51,6 +54,15 @@ export function Home() {
               <Col xs={12}>
                 <Description className="text-left">"Construo pontes entre conceitos e códigos, transformando ideias em realidade digital."</Description>
               </Col>
+              <Row md={12}>
+                <Col md={2}>
+                <Link to="/about-me">
+                   <CustomButton>
+                     Saiba mais
+                   </CustomButton>
+                </Link>
+                </Col>
+              </Row>
             </Row>
           </Content>
         </RowStyled>

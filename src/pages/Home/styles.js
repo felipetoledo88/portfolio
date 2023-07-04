@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Row } from 'react-bootstrap';
+import { Button, Row } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
 export const HomePage = styled.div`
@@ -56,4 +56,19 @@ export const Description = styled.p`
 
 export const RowStyled = styled(Row)`
   margin-left: 3%;
+`;
+
+export const CustomButton = styled(Button)`
+  background-color: transparent;
+  border-color: #49B6A6 !important;
+  color: #49B6A6;
+  font-family: 'Chakra Petch', sans-serif;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+
+  &:hover,
+  &:active {
+    background-color: #49B6A6;
+    border-color: #49B6A6 !important;
+    color: #fff;
+  }
 `;
