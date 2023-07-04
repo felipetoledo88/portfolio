@@ -19,6 +19,11 @@ export const ContactContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+
+  @media (max-width: 767px) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 `;
 
 export const ContactCard = styled.div`
@@ -34,6 +39,10 @@ export const ContactCard = styled.div`
 
   &:hover {
     transform: translateY(-5px);
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
   }
 `;
 

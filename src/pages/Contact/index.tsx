@@ -8,8 +8,8 @@ export function Contact() {
     <ContactPage>
       <HeaderPage />
       <ContactContainer>
-        <Row className="justify-content-center align-items-center">
-          <Col xs={12} sm={6} md={3}>
+        <Row className="justify-content-center">
+          <Col xs={12} sm={6} md={3} className="mb-4">
             <ContactCard>
               <ContactIcon>
                 <FaEnvelope size={48} />
@@ -17,7 +17,7 @@ export function Contact() {
               <ContactText>Email</ContactText>
             </ContactCard>
           </Col>
-          <Col xs={12} sm={6} md={3}>
+          <Col xs={12} sm={6} md={3} className="mb-4">
             <ContactCard>
               <ContactIcon>
                 <FaGithub size={48} />
@@ -25,7 +25,7 @@ export function Contact() {
               <ContactText>Github</ContactText>
             </ContactCard>
           </Col>
-          <Col xs={12} sm={6} md={3}>
+          <Col xs={12} sm={6} md={3} className="mb-4">
             <ContactCard>
               <ContactIcon>
                 <FaWhatsapp size={48} />
@@ -33,7 +33,7 @@ export function Contact() {
               <ContactText>WhatsApp</ContactText>
             </ContactCard>
           </Col>
-          <Col xs={12} sm={6} md={3}>
+          <Col xs={12} sm={6} md={3} className="mb-4">
             <ContactCard>
               <ContactIcon>
                 <FaLinkedin size={48} />
