@@ -11,3 +11,38 @@ export const ContactPage = styled.div`
     padding-bottom: 40px;
   }
 `;
+
+export const ContactContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+`;
+
+export const ContactCard = styled.div`
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  width: 200px;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+`;
+
+export const ContactIcon = styled.span`
+  font-size: 48px;
+  margin-right: 10px;
+  transform: scale(1.2);
+`;
+
+export const ContactText = styled.span`
+  font-size: 18px;
+`;
