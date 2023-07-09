@@ -45,12 +45,12 @@ export const TypeAnimationStyled = styled(TypeAnimation)`
 
 export const Description = styled.p`
   color: #c4c4c4;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Chakra Petch', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   @media (max-width: 768px) {
-    font-size: 25px;
+    font-size: 20px;
   }
 `;
 

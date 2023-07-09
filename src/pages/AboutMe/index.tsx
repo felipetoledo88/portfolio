@@ -25,7 +25,7 @@ Mantenho-me atualizado sobre as tendências tecnológicas. Meu objetivo é entre
 
               </DescriptionStyled>
             <Row className="justify-content-center">
-          <TechnologiesTitle className="justify-content-center text-center">Tecnologias Utilizadas</TechnologiesTitle>
+          <TechnologiesTitle className="justify-content-center text-center">Principais Tecnologias</TechnologiesTitle>
                 <Col xs={6} sm={4} md={2} className="text-center">
                   <TechnologyImage src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
                 </Col>

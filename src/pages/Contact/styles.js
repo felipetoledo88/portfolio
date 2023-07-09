@@ -11,3 +11,30 @@ export const ContactPage = styled.div`
     padding-bottom: 40px;
   }
 `;
+
+export const ContactCard = styled.div`
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+`;
+
+export const ContactIcon = styled.div`
+  font-size: 24px;
+  color: #2B6370;
+  margin-bottom: 10px;
+`;
+
+export const ContactTitle = styled.h3`
+  font-size: 16px;
+  color: #2B6370;
+  margin-bottom: 0;
+`;
