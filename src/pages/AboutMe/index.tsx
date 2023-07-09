@@ -15,9 +15,9 @@ export function AboutMe() {
           </Col>
           <Col  md={6}>
               <DescriptionStyled>
-              Sou um Desenvolvedor Fullstack dedicado, com experiência em soluções web e mobile abrangentes. Habilidades em front-end e back-end me permitem criar aplicações completas e intuitivas para os usuários.
+              Sou um Desenvolvedor Fullstack, com experiência em soluções Web e Mobile abrangentes. Habilidades em Front-end, Back-end e Devops me permitem criar aplicações completas e intuitivas para os usuários.
 
-No front-end, transformo designs em interfaces interativas e responsivas, com atenção aos detalhes e melhores práticas de desenvolvimento.
+No Front-end, transformo designs em interfaces interativas e responsivas, com atenção aos detalhes e melhores práticas de desenvolvimento.
 
 No back-end, crio APIs robustas e escaláveis, gerencio bancos de dados e integro serviços externos, buscando otimização e eficiência.
 
