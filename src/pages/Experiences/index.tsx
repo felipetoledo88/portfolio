@@ -84,7 +84,7 @@ export function Experiences() {
             <TimelineContent>
               <h3 className="vertical-timeline-element-title">Meu Cobrador</h3>
               <p>
-              Participei do desenvolvimento de um aplicativo de gestão de cobranças para empresas, no qual desempenhei um papel fundamental na migração bem-sucedida do sistema de nuvem da AWS para a plataforma Google Cloud. Através dessa migração, otimizamos a infraestrutura e garantimos maior escalabilidade e desempenho para a aplicação. 
+              Participei do projeto de gestão de cobranças para empresas, no qual desempenhei um papel na migração bem-sucedida do sistema de nuvem da AWS para a plataforma Google Cloud. Através dessa migração, otimizamos a infraestrutura e garantimos maior escalabilidade e desempenho para a aplicação. 
               </p>
             </TimelineContent>
           </VerticalTimelineElement>
