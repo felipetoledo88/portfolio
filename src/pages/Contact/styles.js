@@ -10,6 +10,9 @@ export const ContactPage = styled.div`
     min-height: 100vh;
     padding-bottom: 40px;
   }
+  a {
+    text-decoration: none;
+  }
 `;
 
 export const ContactCard = styled.div`
