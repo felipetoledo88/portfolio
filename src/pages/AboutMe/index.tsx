@@ -21,7 +21,7 @@ No front-end, transformo designs em interfaces interativas e responsivas, com at
 
 No back-end, crio APIs robustas e escaláveis, gerencio bancos de dados e integro serviços externos, buscando otimização e eficiência.
 
-Mantenho-me atualizado sobre as tendências tecnológicas e sou apaixonado por resolver problemas complexos e encontrar soluções inovadoras. Meu objetivo é entregar resultados de alta qualidade, garantindo a satisfação dos clientes e o sucesso dos projetos.
+Mantenho-me atualizado sobre as tendências tecnológicas. Meu objetivo é entregar resultados de alta qualidade, garantindo a satisfação dos clientes e o sucesso dos projetos.
 
               </DescriptionStyled>
             <Row className="justify-content-center">
