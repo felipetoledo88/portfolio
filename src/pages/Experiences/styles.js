@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ExperiencePage = styled.div`
   background: linear-gradient(to bottom, #0A192F 0%, #2B6370 100%, #49B6A6 100%);
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   @media (max-width: 767px) {
@@ -42,3 +42,9 @@ export const TimelineConnector = styled.div`
 export const TimelineText = styled.div`
   margin-left: 20px;
 `;
+
+export const LogoProject = styled.img`
+margin: 5px;
+width: 100%;
+border-radius: 15px;
+`

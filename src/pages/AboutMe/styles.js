@@ -40,7 +40,11 @@ export const TitleDev = styled.h2`
   color: #fff;
   font-size: 24px;
   margin-top: 10%;
-  margin-bottom: 30px;
+`;
+
+export const SubtitleDev = styled.h2`
+  color: #fff;
+  font-size: 20px;
 `;
 
 export const DescriptionStyled = styled(Text)`

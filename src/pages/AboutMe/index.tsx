@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { HeaderPage } from "../../components/Header";
-import { AboutMePage, Text, Image, TechnologyImage, TechnologiesTitle, DescriptionStyled, TitleDev } from "./styles";
+import { AboutMePage, Text, Image, TechnologyImage, TechnologiesTitle, DescriptionStyled, TitleDev, SubtitleDev } from "./styles";
 
 export function AboutMe() {
   return (
@@ -9,12 +9,20 @@ export function AboutMe() {
       <Container>
         <Row md={12}>
           <Col md={6} className="text-center">
-            <Image  className="" src="https://kinsta.com/pt/wp-content/uploads/sites/3/2020/04/ferramentas-de-revisao-de-codigo.png" alt="Foto de perfil" roundedCircle />
-            <TitleDev className="justify-content-center text-center">Felipe Toledo - Dev Full Stack</TitleDev>
+            <Image  className="" src="https://media.licdn.com/dms/image/C4D03AQGSGa3JnYddyQ/profile-displayphoto-shrink_800_800/0/1647613998173?e=1694649600&v=beta&t=vTBjnKMsGnDtNVa0dyxT8UWZxW_KJFXy5Ay1VcEWLjQ" alt="Foto de perfil" roundedCircle />
+            <TitleDev className="justify-content-center text-center">Felipe Toledo</TitleDev>
+            <SubtitleDev className="justify-content-center text-center">Full Stack Developer</SubtitleDev>
           </Col>
           <Col  md={6}>
               <DescriptionStyled>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed justo non ex consequat feugiat. Cras non mi sit amet lectus consequat rutrum in nec ipsum. Suspendisse potenti. Sed vestibulum lectus in semper ullamcorper. Sed sed est in sapien varius malesuada. Aliquam erat volutpat. Integer eu elit fringilla, auctor dolor a, volutpat enim. Fusce consequat tellus id tristique vulputate. Suspendisse aliquam justo ut metus varius, in elementum tortor mollis. Nulla ac eros rutrum, posuere est eu, luctus dui.
+              Sou um Desenvolvedor Fullstack dedicado, com experiência em soluções web e mobile abrangentes. Habilidades em front-end e back-end me permitem criar aplicações completas e intuitivas para os usuários.
+
+No front-end, transformo designs em interfaces interativas e responsivas, com atenção aos detalhes e melhores práticas de desenvolvimento.
+
+No back-end, crio APIs robustas e escaláveis, gerencio bancos de dados e integro serviços externos, buscando otimização e eficiência.
+
+Mantenho-me atualizado sobre as tendências tecnológicas e sou apaixonado por resolver problemas complexos e encontrar soluções inovadoras. Meu objetivo é entregar resultados de alta qualidade, garantindo a satisfação dos clientes e o sucesso dos projetos.
+
               </DescriptionStyled>
             <Row className="justify-content-center">
           <TechnologiesTitle className="justify-content-center text-center">Tecnologias Utilizadas</TechnologiesTitle>
