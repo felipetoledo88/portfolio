@@ -47,8 +47,8 @@ export const MenuList = styled.ul`
 `;
 
 export const MenuItem = styled.li`
-  font-family: 'Fira Code', monospace;
-  font-size: 14px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 17px;
   color: #fff;
   margin-right: 16px;
   display: flex;
@@ -63,6 +63,6 @@ export const MenuItem = styled.li`
 
   @media (max-width: 768px) {
     margin-bottom: 8px;
-    font-size: 12px;
+    font-size: 17px;
   }
 `;
