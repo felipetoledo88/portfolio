@@ -3,7 +3,7 @@ import { Button, Row } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
 export const HomePage = styled.div`
-  background-image: url('https://free4kwallpapers.com/uploads/originals/2021/03/20/cool-planet-polygon-wallpaper.png');
+  background-image: url('/img/background.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
