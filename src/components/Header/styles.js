@@ -9,16 +9,33 @@ export const Header = styled.header`
   padding: 16px;
 
   @media (max-width: 768px) {
-    justify-content: space-between;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #202123;
+    z-index: 999;
   }
 `;
 
 export const ItemIcon = styled.span`
   margin-right: 8px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+
+    svg {
+      margin-bottom: 4px;
+    }
+  }
 `;
 
 export const Icon = styled(FaCode)`
-  color: #49B6A6;
+  color: #fff;
   font-size: 50px;
   margin-right: 8px;
 
@@ -36,13 +53,14 @@ export const MenuList = styled.ul`
   margin-left: auto;
 
   a { 
-    color: currentColor;
+    color: #fff;
     text-decoration: none;
   } 
 
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: nowrap;
+    margin-top: 5%
   }
 `;
 
@@ -57,12 +75,12 @@ export const MenuItem = styled.li`
   transition: all 0.3s ease;
 
   &:hover {
-    color: #49B6A6;
+    color: #fff;
     transform: scale(1.1);
   }
 
   @media (max-width: 768px) {
     margin-bottom: 8px;
-    font-size: 17px;
+    font-size: 20px;
   }
 `;

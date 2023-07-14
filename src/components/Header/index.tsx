@@ -13,26 +13,26 @@ export function HeaderPage() {
         <MenuItem>
           <ItemIcon>
             <AiTwotoneHome />
+            <Link to="/">HOME</Link>
           </ItemIcon>
-          <Link to="/">HOME</Link>
         </MenuItem>
         <MenuItem>
           <ItemIcon>
             <AiOutlineUser />
+            <Link to="/about-me">SOBRE</Link>
           </ItemIcon>
-          <Link to="/about-me">SOBRE</Link>
         </MenuItem>
         <MenuItem>
           <ItemIcon>
             <AiOutlineTool />
+            <Link to="/experiences">EXPERIÊNCIAS</Link>
           </ItemIcon>
-          <Link to="/experiences">EXPERIÊNCIAS</Link>
         </MenuItem>
         <MenuItem>
           <ItemIcon>
             <AiOutlineContacts />
+            <Link to="/contact">CONTATO</Link>
           </ItemIcon>
-          <Link to="/contact">CONTATO</Link>
         </MenuItem>
       </MenuList>
     </Header>
