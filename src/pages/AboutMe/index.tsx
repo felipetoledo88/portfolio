@@ -15,13 +15,7 @@ export function AboutMe() {
           </Col>
           <Col  md={6}>
               <DescriptionStyled>
-              Sou um Desenvolvedor Fullstack, com experiência em soluções Web e Mobile abrangentes. Habilidades em Front-end, Back-end e Devops me permitem criar aplicações completas e intuitivas para os usuários.
-
-No Front-end, transformo designs em interfaces interativas e responsivas, com atenção aos detalhes e melhores práticas de desenvolvimento.
-
-No back-end, crio APIs robustas e escaláveis, gerencio bancos de dados e integro serviços externos, buscando otimização e eficiência.
-
-Mantenho-me atualizado sobre as tendências tecnológicas. Meu objetivo é entregar resultados de alta qualidade, garantindo a satisfação dos clientes e o sucesso dos projetos.
+              Desenvolvedor FullStack com experiências em Arquiteturas de Software, Desenvolvimento Web, Mobile, Cloud e Liderança Técnica. A paixão pelo que faço se traduz na busca constante por novas tendências e inovações que possam aprimorar nossas soluções. Estou sempre focado em otimizar processos para elevar a qualidade do desenvolvimento de software e simplificar a vida das pessoas. Meu objetivo é transformar desafios em soluções acessíveis por meio da tecnologia.
 
               </DescriptionStyled>
             <Row className="justify-content-center">
