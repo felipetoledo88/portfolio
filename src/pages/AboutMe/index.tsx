@@ -9,7 +9,7 @@ export function AboutMe() {
       <Container>
         <Row md={12}>
           <Col md={6} className="text-center">
-            <Image  className="" src="https://media.licdn.com/dms/image/C4D03AQGSGa3JnYddyQ/profile-displayphoto-shrink_800_800/0/1647613998173?e=1694649600&v=beta&t=vTBjnKMsGnDtNVa0dyxT8UWZxW_KJFXy5Ay1VcEWLjQ" alt="Foto de perfil" roundedCircle />
+            <Image  className="" src="/perfil.png" alt="Foto de perfil" roundedCircle />
             <TitleDev className="justify-content-center text-center">Felipe Toledo</TitleDev>
             <SubtitleDev className="justify-content-center text-center">Full Stack Developer</SubtitleDev>
           </Col>
