@@ -60,7 +60,7 @@ export const Hamburger = styled.div`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${props => props.isOpen ? '#fff' : '#333'};
+    background: ${props => props.isOpen ? '#fff' : '#608487 '};
     border-radius: 10px;
     transition: all 0.3s linear;
   }
