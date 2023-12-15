@@ -15,8 +15,7 @@ export function AboutMe() {
           </Col>
           <Col  md={6}>
               <DescriptionStyled>
-              Desenvolvedor FullStack com experiências em Arquiteturas de Software, Desenvolvimento Web, Mobile, Cloud e Liderança Técnica. A paixão pelo que faço se traduz na busca constante por novas tendências e inovações que possam aprimorar nossas soluções. Estou sempre focado em otimizar processos para elevar a qualidade do desenvolvimento de software e simplificar a vida das pessoas. Meu objetivo é transformar desafios em soluções acessíveis por meio da tecnologia.
-
+              Tech Lead e Desenvolvedor FullStack com experiências em Arquiteturas de Software, Desenvolvimento Web, Mobile, Cloud e Liderança Técnica. A paixão pelo que faço se traduz na busca constante por novas tendências e inovações que possam aprimorar nossas soluções. Estou sempre focado em otimizar processos para elevar a qualidade do desenvolvimento de software e simplificar a vida das pessoas. Meu objetivo é transformar desafios em soluções acessíveis por meio da tecnologia.
               </DescriptionStyled>
             <Row className="justify-content-center">
           <TechnologiesTitle className="justify-content-center text-center">Principais Tecnologias</TechnologiesTitle>
