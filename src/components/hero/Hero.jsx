@@ -49,13 +49,11 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>FELIPE TOLEDO</motion.h2>
           <motion.h1 variants={textVariants}>
-            Fullstack Developer
+            Desenvolvedor Fullstack
           </motion.h1>
+          <motion.h3 variants={textVariants}>
+          </motion.h3>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants} href={`#Contact`}>Contato</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}

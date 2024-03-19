@@ -16,7 +16,7 @@ const Navbar = () => {
           Felipe Toledo
         </motion.span>
         <div className="social">
-          <a href="https://www.google.com">
+          <a href="https://www.linkedin.com/in/felipe-toledo-25502a1a1/">
             <img src="/linkedin.png" alt="" />
           </a>
         </div>

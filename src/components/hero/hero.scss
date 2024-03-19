@@ -29,7 +29,7 @@
 
       h2 {
         font-size: 30px;
-        color: rgb(3, 139, 230);
+        color: rgb(101, 3, 230);
         letter-spacing: 10px;
       }
 
@@ -64,7 +64,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10%;
 
     @include mobile {
       height: 50%;
