@@ -1,9 +1,4 @@
-# Configure .env with .env.example
+# React + Vite
 
-# Install Modules
-npm install
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----------------------------------------------------------------------------------------------------------------------
-
-# Start
-npm run
