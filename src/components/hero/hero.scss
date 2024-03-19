@@ -1,4 +1,9 @@
-@import "../../app.scss";
+// Definindo o mixin mobile
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
 
 .hero {
   height: calc(100vh - 100px);
@@ -19,6 +24,7 @@
       justify-content: center;
       gap: 40px;
 
+      // Utilizando o mixin mobile
       @include mobile {
         height: 50%;
         width: 100%;
@@ -36,6 +42,7 @@
       h1 {
         font-size: 88px;
 
+        // Utilizando o mixin mobile
         @include mobile {
           font-size: 36px;
         }
@@ -65,7 +72,9 @@
     position: absolute;
     top: 0;
     right: 10%;
-
+    animation: floatAnimation 3s ease-in-out infinite alternate;
+    
+    // Utilizando o mixin mobile
     @include mobile {
       height: 50%;
       width: 100%;
@@ -73,7 +82,7 @@
       bottom: 0;
     }
 
-    img{
+    img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -88,5 +97,17 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+  }
+
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }

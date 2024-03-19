@@ -6,26 +6,26 @@ const items = [
   {
     id: 1,
     title: "Transporte e Cargas",
-    img: "https://media.istockphoto.com/id/859916128/pt/foto/truck-driving-on-the-asphalt-road-in-rural-landscape-at-sunset-with-dark-clouds.jpg?s=612x612&w=0&k=20&c=DIIIpexvcPtYWRwEXSS7RjbAglC4B5k_0XdW0b6Cz-k=",
+    img: "https://img.freepik.com/fotos-gratis/um-caminhao-com-um-reboque-branco-que-diz-scania-na-lateral_123827-23486.jpg?size=626&ext=jpg&ga=GA1.1.1269040533.1710374400&semt=ais",
     desc: "Aprimoramento e manutenção de um sistema abrangente de gestão logística. Este projeto abrangia a concepção e implementação de uma plataforma Web utilizando tecnologias React e NodeJS, bem como o desenvolvimento de uma aplicação móvel em React Native. A arquitetura incluía integração de Microserviços, configuração de Pipelines, e implementação de APIs. O propósito central era oferecer funcionalidades como rastreamento de cargas, gestão de frotas e controle de estoque, visando otimizar operações logísticas de forma eficiente.",
   },
   {
     id: 2,
-    title: "Mobile",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Medicina",
+    img: "https://d3043uog1ad1l6.cloudfront.net/uploads/2020/06/medicina-tecnologia.jpg",
+    desc: "Participei ativamente como Tech Lead em um projeto de Medicina do Trabalho, no qual liderei o desenvolvimento de uma plataforma de gestão voltada para a geração dinâmica de documentos essenciais nessa área, tais como PGR, PCMSO e ASO. Nosso principal objetivo era proporcionar uma solução completa e eficiente para simplificar e agilizar os processos relacionados à medicina ocupacional. Por meio de uma abordagem centrada no usuário e da aplicação de tecnologias modernas, conseguimos criar uma plataforma intuitiva e altamente funcional que atendia às necessidades específicas desse setor, garantindo conformidade e eficácia em todos os aspectos da gestão de saúde no ambiente de trabalho.",
   },
   {
     id: 3,
-    title: "Smartwatch",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Gestão de Rotinas",
+    img: "https://rubenscury.com.br/blog/wp-content/uploads/2023/08/2-Relogio-usa-Inteligencia-Artificial-para-auxiliar-no-diagnostico-precoce-de-Parkinson.jpg",
+    desc: "Participei de um projeto inovador de Gestão de Rotinas e Atividades, desenvolvido em Kotlin para um Smartwatch. Nosso objetivo principal era utilizar a tecnologia de geolocalização do Smartwatch para certificar que os operadores estivessem executando suas atividades de rotina de forma eficaz. Através da proximidade via GPS, o sistema garantia que as tarefas fossem realizadas nos locais designados, registrando o percurso percorrido e fornecendo uma visualização clara das verificações realizadas em cada ponto. Essa abordagem não apenas aumentava a eficiência operacional, mas também oferecia insights valiosos para otimizar ainda mais os processos de gestão de rotinas e atividades",
   },
   {
     id: 4,
     title: "I.A",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    img: "https://curtonews.com/wp-content/wp-uploads/2023/10/Captura-de-Tela-2023-07-28-as-23.02.21-aspect-ratio-930-440.png",
+    desc: "Participei do desenvolvimento de um projeto inovador de sistema de cobranças, no qual integramos uma plataforma em uma inteligência artificial para conduzir as cobranças de forma inteligente. Nossa abordagem combinou tecnologia integrada da IA para automatizar e otimizar o processo de cobrança. Isso possibilitou uma forma mais personalizada e eficiente, adaptando-se dinamicamente às necessidades e comportamentos dos devedores. O resultado foi um sistema capaz de melhorar significativamente a taxa de recuperação de créditos e proporcionar uma experiência mais satisfatória tanto para os clientes quanto para os gestores de cobrança.",
   },
 ];
 
