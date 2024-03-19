@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          Construir pontes entre conceitos e
+          <br /> Códigos
         </p>
         <hr />
       </motion.div>
@@ -45,14 +45,8 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{color:"blueviolet"}}>Tecnologias</motion.b>Frequentes
           </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
-          </h1>
-          <button>WHAT WE DO?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,53 +54,44 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>React</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Utilizada para desenvolvimento de interfaces modernas e responsivas. Com sua arquitetura baseada em componentes, 
+          React permite uma abordagem modular e reutilizável no desenvolvimento de aplicativos web. 
+          Utilizando conceitos como o virtual DOM, é possível criar páginas dinâmicas e de alto desempenho.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Node.js</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Com o NodeJS, é possível construir servidores robustos e eficientes, 
+          lidar com grandes volumes de solicitações de forma assíncrona e implementar APIs RESTful de alto desempenho. 
+          Sua vasta gama de bibliotecas e sua comunidade ativa tornam o Node.js uma escolha poderosa para a construção de infraestrutura de back-end moderna.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>MySQL</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          MySQL é um sistema open-source de gerenciamento de base de dados relacional SQL, utilizada para armazenamento e gerenciamento de dados confiável e escalável. 
+         com isso é possível projetar esquemas de banco de dados eficientes e implementar consultas otimizadas para atender às demandas específicas das aplicações.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Java</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Java é uma linguagem versátil e robusta, utilizada para desenvolver uma ampla gama de aplicativos, desde sistemas corporativos até aplicativos móveis Android. 
+          Minha experiência em Java abrange o desenvolvimento aproveitando os princípios de orientação a objetos e o vasto ecossistema de frameworks Java, 
+          como Spring e Hibernate, para fornecer soluções confiáveis e eficientes.
           </p>
-          <button>Go</button>
         </motion.div>
       </motion.div>
     </motion.div>
