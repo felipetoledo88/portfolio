@@ -57,16 +57,16 @@ const Contact = () => {
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Vamos conversar!</motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
-          <span>hello@react.dev</span>
+          <h2>E-Mail</h2>
+          <span>felipetoledo88@gmail.com</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Address</h2>
-          <span>Hello street New York</span>
+          <h2>Endereço</h2>
+          <span>Curitiba-PR</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
-          <h2>Phone</h2>
-          <span>+1 234 5678</span>
+          <h2>Celular</h2>
+          <span>+55 41 99674-9435</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -106,10 +106,10 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
-          <button>Submit</button>
+          <input type="text" required placeholder="Nome" name="name"/>
+          <input type="email" required placeholder="E-mail" name="email"/>
+          <textarea rows={8} placeholder="Mensagem" name="message"/>
+          <button>Enviar</button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>
