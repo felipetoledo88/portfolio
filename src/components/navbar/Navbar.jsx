@@ -19,9 +19,10 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/felipe-toledo-25502a1a1/" target="_blank">
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/felipe-toledo-25502a1a1/" target="_blank">
-            <img src="/linkedin.png" alt="" />
+          <a href="https://wa.me/5541996749435" target="_blank">
+            <img src="/whatsapp.png" alt="WhatsApp" />
           </a>
+
         </div>
       </div>
     </div>
