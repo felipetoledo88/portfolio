@@ -72,12 +72,12 @@
     position: absolute;
     top: 0;
     right: 10%;
-    animation: floatAnimation 3s ease-in-out infinite alternate;
+    animation: floatAnimation s ease-in-out infinite alternate;
     
     // Utilizando o mixin mobile
     @include mobile {
       height: 50%;
-      width: 100%;
+      width: 60%;
       top: unset;
       bottom: 0;
     }
