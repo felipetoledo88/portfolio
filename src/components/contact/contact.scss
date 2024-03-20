@@ -11,6 +11,7 @@
   @include mobile {
     width: 100%;
     padding: 10px;
+    gap: 0%;
     flex-direction: column;
   }
 
@@ -21,7 +22,7 @@
     gap: 40px;
 
     @include mobile {
-      gap: 20px;
+      gap: 5px;
       text-align: center;
       align-items: center;
       margin-top: 70px;
@@ -46,7 +47,7 @@
     position: relative;
     
     @include mobile {
-      padding: 50px;
+      padding: 5px;
       width: 100%;
     }
 
@@ -72,7 +73,7 @@
         border-radius: 5px;
 
         @include mobile {
-          padding: 10px;
+          padding: 7px;
         }
       }
 
@@ -80,6 +81,7 @@
         padding: 20px;
         border: none;
         background-color: blueviolet;
+        border-radius: 10px;
         cursor: pointer;
         font-weight: 500;
         @include mobile {
