@@ -11,7 +11,7 @@ const items = [
   },
   {
     id: 2,
-    title: "Medicina",
+    title: "Medicina do Trabalho",
     img: "https://d3043uog1ad1l6.cloudfront.net/uploads/2020/06/medicina-tecnologia.jpg",
     desc: "Participei ativamente como Tech Lead em um projeto de Medicina do Trabalho, no qual liderei o desenvolvimento de uma plataforma de gestão voltada para a geração dinâmica de documentos essenciais nessa área, tais como PGR, PCMSO e ASO. Nosso principal objetivo era proporcionar uma solução completa e eficiente para simplificar e agilizar os processos relacionados à medicina ocupacional. Por meio de uma abordagem centrada no usuário e da aplicação de tecnologias modernas, conseguimos criar uma plataforma intuitiva e altamente funcional que atendia às necessidades específicas desse setor, garantindo conformidade e eficácia em todos os aspectos da gestão de saúde no ambiente de trabalho.",
   },

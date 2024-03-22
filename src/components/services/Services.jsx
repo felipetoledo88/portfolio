@@ -35,10 +35,10 @@ const Services = () => {
       animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
-        <p>
+        {/* <p>
           Construir pontes entre conceitos e
           <br /> Códigos
-        </p>
+        </p> */}
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
